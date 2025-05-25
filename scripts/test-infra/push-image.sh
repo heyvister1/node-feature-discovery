@@ -16,10 +16,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
 
-# Tool versions
-HELM_VERSION="v3.17.3"
-ORAS_VERSION="v1.2.3"
-
 # Override VERSION if _GIT_TAG is specified. Strip 10 first characters
 # ('vYYYYMMDD-') from _GIT_TAG in order to get a reproducible version and
 # container image tag
