@@ -1,4 +1,5 @@
-.PHONY: all test templates yamls build build-% install-crds
+include make/license.mk
+.PHONY: all test templates yamls build build-%
 .FORCE:
 
 GO_CMD ?= go
